@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <!-- В <head> всех HTML-файлов -->
+    <link rel="icon" href="favicon.png">
+    <title>МемоМикс — идеальные ситуации для любых игр</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>МемоМикс</h1>
+        <p>Идеальные ситуации для любых игр</p>
+    </header>
+
+    <main class="main-content">
+        <section class="situations">
+            <div class="section-header">
+                <h2>Выберите ситуацию</h2>
+                <div class="divider"></div>
+            </div>
+            <button id="random-btn" class="random-button">🎲 Случайная ситуация</button>
+            <div class="situation-grid">
+                <!-- Разделы будут добавляться через JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="privacy.html">Политика конфиденциальности</a>
+                <span>|</span>
+                <a href="mailto:mail4.vvork@gmail.com">mail4.vvork@gmail.com</a>
+                <span>|</span>
+                <a href="https://t.me/true_support_team" target="_blank">📢 Telegram для предложений</a>
+            </div>
+            <p class="footer-copyright">© 2025 МемоМикс | Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="database.js" defer></script> <!-- 1. Общие данные -->
+    <script src="script.js" defer></script>   <!-- 2. Логика главной страницы -->
+</body>
+</html>
