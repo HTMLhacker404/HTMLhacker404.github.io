@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">    
+    <link rel="icon" href="favicon.png" type="image/png">    
+    <title>МемоМикс — Мемы | Коллекция мемов для игр</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="description" content="Коллекция популярных мемов для игр Memeclub, Битва мемов и Мемограм. Смешные картинки и шаблоны для создания своих мемов.">
+    <meta name="keywords" content="мемы для игр, коллекция мемов, шаблоны мемов, смешные картинки, Memeclub, Битва мемов, Мемограм">
+    <meta property="og:title" content="Коллекция мемов — МемоМикс">
+    <meta property="og:description" content="Лучшие мемы для игр с друзьями. Подходит для Memeclub, Битва мемов и других мем-игр.">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103422072', 'ym');
+
+        ym(103422072, 'init', {ssr:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/103422072" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="back-button">
+            <svg class="back-arrow" viewBox="0 0 24 24">
+                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+            </svg>
+            <span>Вернуться</span>
+        </a>
+        <h1 id="category-title">Мемы</h1>
+    </header>
+
+    <main class="main-content">
+        <div class="memes-grid">
+            <div class="loading-text">Загружаем мемы...</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="privacy">Политика конфиденциальности</a>
+                <span>|</span>
+                <a href="mailto:mail4.vvork@gmail.com">✉️ mail4.vvork@gmail.com</a>
+                <span>|</span>
+                <a href="https://t.me/true_support_team" target="_blank">📢 Telegram для предложений</a>
+            </div>
+            <p class="footer-copyright">Бесплатная коллекция мемов для настольных игр. Выбирайте категорию или создавайте свои мемы!</p>
+        </div>
+    </footer>
+
+    <script src="memes-database.js" defer></script>
+    <script src="meme-category.js" defer></script>
+</body>
+</html>

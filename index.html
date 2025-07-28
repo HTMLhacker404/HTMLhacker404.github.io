@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">    
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>МемоМикс | Ситуации для Memeclub, Битвы мемов и Мемограм</title>
+    
+    <meta name="description" content="МемоМикс — генератор смешных ситуаций и вопросов для игр с мемами: Мемограм, Битва мемов, Memeclub. Подходит для взрослых, детей, вечеринок и настольных игр.">
+    <meta name="keywords" content="игра мемы, настольная игра мемы, мемы для игры, ситуации для игры в мемы, Мемограм, Битва мемов, Memeclub, мемы для компании, вопросы для игры в мемы">
+    <meta property="og:title" content="МемоМикс — Идеи для игры в мемы с друзьями">
+    <meta property="og:description" content="Подберите лучшие ситуации для Мемограм, Битвы мемов или Memeclub и устройте весёлую мем-игру!">
+    <meta property="og:image" content="https://mmix.fun/favicon.png">
+    <meta property="og:url" content="https://mmix.fun">
+
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103422072', 'ym');
+
+        ym(103422072, 'init', {ssr:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/103422072" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <header class="header">
+        <h1>МемоМикс</h1>
+        <p>Идеальные ситуации для Memeclub, Битвы мемов, Мемограм и других любимых игр</p>
+    </header>
+
+    <main class="main-content">
+        <section class="situations">
+            <div class="section-header">
+                <h2>Выберите ситуацию</h2>
+                <div class="divider"></div>
+            </div>
+            <button id="random-btn" class="random-button">🎲 Случайная ситуация</button>
+            <div class="situation-grid">
+                <!-- Разделы будут добавляться через JS -->
+            </div>
+        </section>
+
+        <section class="memes">
+            <div class="section-header">
+                <h2>Коллекция мемов</h2>
+                <div class="divider"></div>
+            </div>
+            <button id="random-meme-btn" class="random-button">🎲 Случайный мем</button>
+            <div class="situation-grid memes-categories">
+                <!-- Категории мемов будут добавляться через JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="privacy">Политика конфиденциальности</a>
+                <span>|</span>
+                <a href="mailto:mail4.vvork@gmail.com">mail4.vvork@gmail.com</a>
+                <span>|</span>
+                <a href="https://t.me/true_support_team" target="_blank">📢 Telegram для предложений</a>
+            </div>
+            <p class="footer-copyright">Бесплатные готовые ситуации для настольных игр с мемами. Выбирайте категорию или получите случайный вопрос!</p>
+        </div>
+    </footer>
+
+    <script src="database.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="memes-database.js" defer></script>
+    <script src="memes.js" defer></script>
+</body>
+</html>
